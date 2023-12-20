@@ -1,0 +1,9 @@
+_target_: contextualbandits.online.BootstrappedUCB
+nchoices: 10
+beta_prior: ${eval:'((5.0 / ${.nchoices}, 4), 2)'}
+percentile: 80
+random_state: ${..seed}
+nsamples: 10
+batch_sample_method: gamma  # gamma, poisson
+defaults:
+    - base_algorithm: logreg

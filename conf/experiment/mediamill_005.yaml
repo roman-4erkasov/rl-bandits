@@ -1,0 +1,9 @@
+# @package _global_
+
+project: rl-bandits-mediamill
+model_name: bts
+defaults:
+    - override /model: bts
+    - override /dataset: mediamill
+model:
+    nsamples: 20

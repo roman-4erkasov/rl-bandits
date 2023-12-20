@@ -1,0 +1,9 @@
+tail: 5000
+seed: 1337
+batch_size: 100
+debug: False
+defaults:
+    - _self_
+    - model: bucb
+    - parser: svm_parser
+    - dataset: bibtex

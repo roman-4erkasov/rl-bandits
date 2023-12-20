@@ -1,0 +1,6 @@
+_target_: contextualbandits.online.EpsilonGreedy
+nchoices: 10
+beta_prior: ${eval:'((3.0 / ${.nchoices}, 4), 2)'}
+random_state: ${..seed}
+defaults:
+    - base_algorithm: logreg

@@ -1,0 +1,8 @@
+_target_: contextualbandits.online.BootstrappedTS
+nchoices: 10
+beta_prior: ${eval:'((2./np.log2(${.nchoices}), 4), 2)'} 
+random_state: ${..seed}
+nsamples: 10
+batch_sample_method: gamma # [gamma, poisson]
+defaults:
+    - base_algorithm: logreg

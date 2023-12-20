@@ -1,0 +1,116 @@
+{
+    "os": "Linux-5.15.0-91-generic-x86_64-with-glibc2.35",
+    "python": "3.8.18",
+    "heartbeatAt": "2023-12-20T22:51:59.879654",
+    "startedAt": "2023-12-20T22:51:51.583613",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "hw03/nb/test_hydra_2.ipynb",
+    "root": "/home/fatuus/rl-rairi",
+    "git": {
+        "remote": "git@github.com:roman-4erkasov/rl-rairi.git",
+        "commit": "be3a0c069880067ed28db54f9f86fda8814ac7e1"
+    },
+    "email": "roman.4erkasov@gmail.com",
+    "host": "ubuntu22",
+    "username": "fatuus",
+    "executable": "/home/fatuus/rl-rairi/ve_cleanrl/bin/python3.8",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 1995.2949999999992,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1995.295,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1995.295,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1995.295,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1995.295,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1995.295,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1995.295,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1995.295,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1995.295,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1995.295,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1995.295,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1995.295,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1995.295,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1995.295,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1995.295,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1995.295,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1995.295,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 98.33024597167969,
+        "used": 37.953773498535156
+    },
+    "memory": {
+        "total": 31.337482452392578
+    }
+}

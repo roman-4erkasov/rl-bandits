@@ -1,0 +1,9 @@
+# @package _global_
+
+project: rl-bandits-bibtex
+
+defaults:
+    - override /model: bootstrapped_ucb
+
+model:
+    percentile: 50

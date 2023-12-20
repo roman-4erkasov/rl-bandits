@@ -1,0 +1,10 @@
+# @package _global_
+
+project: rl-bandits-mediamill
+model_name: bucb
+defaults:
+    - override /model: bucb
+    - override /dataset: mediamill
+model:
+    percentile: 80
+    nsamples: 10

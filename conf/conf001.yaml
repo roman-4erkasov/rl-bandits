@@ -1,0 +1,13 @@
+# @package _global_
+
+tail: null
+seed: 1337
+batch_size: 100
+debug: False
+defaults:
+    - _self_
+    - parser: svm_parser
+    - dataset: bibtex
+    - override /model: bootstrapped_ucb
+model: 
+    percentile: 50

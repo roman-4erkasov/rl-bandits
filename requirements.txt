@@ -1,0 +1,5 @@
+numpy
+pandas
+matplotlib
+gymnasium[classic-control, atari, accept-rom-license]
+jupyterlab
