@@ -28,3 +28,8 @@ https://wandb.ai/roman-4erkasov-signup/rl-bandits-mediamill/reports/Contextual-O
 Для добавлния описание эксперимента нужно описать конфиг эксперимента в директории [conf/experiment/](conf/experiment/) (Пример конфига [conf/experiment/mediamill_006.yaml](conf/experiment/mediamill_006.yaml))
 
 Для проведения экспеиментов нужно выполнить команду  `venv/bin/python src/main.py -e 7 -e 8 -e 9`. Где 7,8 и 9 это номера экспериментов.
+
+## TODO
+- Составить конфиги остальных моделей
+- Более глубокое изучение гиперпараметров с последующем их варьированием
+
