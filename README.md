@@ -21,7 +21,7 @@ https://wandb.ai/roman-4erkasov-signup/rl-bandits-mediamill/reports/Contextual-O
 - Для алгоритмов BootsrappedUCB и BootstrappedTS из рассмотренных гиперпараметров наиболее значимым является nsamples
 
 ## Установка
-Для установки выполнить команду `make install` & .
+Для установки выполнить команду `make install` .
 
 ## Прменение
 Для добавлния описание эксперимента нужно описать конфиг эксперимента в директории [conf/experiment/](conf/experiment/) (Пример конфига [conf/experiment/mediamill_006.yaml](conf/experiment/mediamill_006.yaml))
