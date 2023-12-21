@@ -1,6 +1,6 @@
 import sys
-sys.path.append("../src/")
-import argparse
+sys.path.append("./src/")
+
 import numpy as np
 from utils import flatten_dict
 
@@ -19,7 +19,6 @@ if not OmegaConf.has_resolver("eval"):
         import numpy as np
         return eval(x)
     OmegaConf.register_new_resolver("eval", resolver)
-
 
 def simulate_rounds(model, rewards, actions_hist, X_global, y_global, batch_st, batch_end):
     np.random.seed(batch_st)
@@ -77,28 +76,17 @@ def run_model(model, X,y, cfg):
     return rewards
 
 
-def run_experiment(name):
-    with initialize(
-        version_base=None, 
-        config_path="../conf/", 
-    ):
-        cfg = compose(
-            config_name="config.yaml",
-            # return_hydra_config=True, 
-            overrides=[f"+experiment={name}"]
-        )
+import hydra
+
+@hydra.main(version_base=1.1, config_path="../conf/", config_name='config.yaml')
+def run_experiment(cfg):
     model = instantiate(cfg.model)
     parser = instantiate(cfg.parser)
     X,y = parser()
     flat_dict = flatten_dict(OmegaConf.to_container(cfg))
-    run = wandb.init(project=cfg.project, config=flat_dict)
+    run = wandb.init(project=f"rl-bandits-{cfg.dataset.name}", config=flat_dict)
     reward = run_model(model, X,y, cfg)
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument('-e','--experiment', dest="experimets", nargs='+', help='<Required> Set flag', required=True)
-    args = parser.parse_args()
-    for i in args.experiments:
-		name = f"mediamill_{str(i).zfill(3)}"
-		run_experiment(name)
+    run_experiment()
