@@ -18,5 +18,5 @@ https://wandb.ai/roman-4erkasov-signup/rl-bandits-mediamill/reports/Contextual-O
 ## Выводы
 Из результатов эксперменов можно заключить:
 - алгоритмы BootsrappedUCB и BootstrappedTS значительно превосходят алгоритм EpsilonGreedy
-- Для алгоритмов BootsrappedUCB и BootstrappedTS наиболее значимым параметром является nsamples
-- 
+- Для алгоритмов BootsrappedUCB и BootstrappedTS из рассмотренных гиперпараметров наиболее значимым является nsamples
+
