@@ -14,7 +14,7 @@
 
 ## Результаты
 Результаты экспериментов можно посмотреть по ссылке:
-https://wandb.ai/roman-4erkasov-signup/rl-bandits-mediamill/reports/Contextual-Online-bandits--Vmlldzo2MzE3OTQ1
+https://api.wandb.ai/links/roman-4erkasov-signup/huiiye2e
 
 В результатах приведены три графика, 2 из которых позволяют сравнить выбранные алгоритмы.
 
