@@ -20,3 +20,10 @@ https://wandb.ai/roman-4erkasov-signup/rl-bandits-mediamill/reports/Contextual-O
 - алгоритмы BootsrappedUCB и BootstrappedTS значительно превосходят алгоритм EpsilonGreedy
 - Для алгоритмов BootsrappedUCB и BootstrappedTS из рассмотренных гиперпараметров наиболее значимым является nsamples
 
+## Установка
+Для установки выполнить команду `make install` & .
+
+## Прменение
+Для добавлния описание эксперимента нужно описать конфиг эксперимента в директории [conf/experiment/](conf/experiment/) (Пример конфига [conf/experiment/mediamill_006.yaml](conf/experiment/mediamill_006.yaml))
+
+Для проведения экспеиментов нужно выполнить команду  `venv/bin/python src/main.py -e 7 -e 8 -e 9`. Где 7,8 и 9 это номера экспериментов.
