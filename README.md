@@ -20,6 +20,7 @@ https://wandb.ai/roman-4erkasov-signup/rl-bandits-mediamill/reports/Contextual-O
 - алгоритмы BootsrappedUCB и BootstrappedTS значительно превосходят алгоритм EpsilonGreedy
 - Для алгоритмов BootsrappedUCB и BootstrappedTS из рассмотренных гиперпараметров наиболее значимым является nsamples
 
+
 ## Установка
 Для установки выполнить команду `make install` .
 
