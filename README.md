@@ -15,4 +15,7 @@ https://wandb.ai/roman-4erkasov-signup/rl-bandits-mediamill/reports/Contextual-O
 В результатах приведены три графика, 2 из которых позволяют сравнить выбранные алгоритмы.
 
 
-## Dsdjlf
+## Выводы
+Из результатов эксперменов можно заключить:
+- алгоритмы BootsrappedUCB и BootstrappedTS значительно превосходят алгоритм EpsilonGreedy
+
